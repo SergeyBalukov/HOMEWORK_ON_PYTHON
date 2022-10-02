@@ -1,9 +1,6 @@
 #Реализуйте алгоритм перемешивания списка.(Без использования библиотеки random)
-def listSort(n):
-    for i in range(len(n) // 2):
-        helpVar = n[i]
-        n[i] = n[-i - 1]
-        n[-i - 1] = helpVar
+import datetime
+print(datetime.datetime.now().microsecond % 100)
 
 n = ['1', '2', '3', '4', '5', '6', '7']
 listSort(n)
