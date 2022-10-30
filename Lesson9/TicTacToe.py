@@ -1,5 +1,3 @@
-from turtle import Screen, width
-from numpy import size
 import pygame
 import sys
 
